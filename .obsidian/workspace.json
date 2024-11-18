@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Practice/Kubespray + balancer.md",
+                "file": "Practice/настроить проксирование для test kibana.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kubespray + balancer"
+              "title": "настроить проксирование для test kibana"
             }
           }
         ]
@@ -175,13 +175,15 @@
   },
   "active": "8566caa390f5806c",
   "lastOpenFiles": [
+    "Practice/No machine installing.md",
+    "Practice/Vagrant CentOS.md",
+    "Practice/настроить проксирование для test kibana.md",
     "Practice/Filebeat config.md",
     "Practice/Elasticsearch.md",
     "Command for linux ubuntu/Simple command to remember.md",
-    "Practice/nginx+keepalived.md",
     "Practice/Kubespray + balancer.md",
+    "Practice/nginx+keepalived.md",
     "Practice/microk8s.md",
-    "Practice/Vagrant CentOS.md",
     "Production/Kafka via Ansible playbook.md",
     "Untitled.md",
     "Command for linux ubuntu",
