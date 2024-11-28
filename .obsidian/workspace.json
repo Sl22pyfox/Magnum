@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Practice/Googling lifehack.md",
+                "file": "Practice/broker/Kafka with kraft + kafka-ui.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Googling lifehack"
+              "title": "Kafka with kraft + kafka-ui"
             }
           }
         ]
@@ -175,8 +175,11 @@
   },
   "active": "8566caa390f5806c",
   "lastOpenFiles": [
+    "Pasted image 20241128085410.png",
+    "Command for linux ubuntu/Googling lifehack.md",
+    "Practice/broker/Kafka with kraft + kafka-ui.md",
+    "Practice/broker",
     "Practice/Kafka broker authentication.md",
-    "Practice/Googling lifehack.md",
     "Practice/Elasticsearch.md",
     "Practice/Filebeat config.md",
     "Practice/microk8s.md",
