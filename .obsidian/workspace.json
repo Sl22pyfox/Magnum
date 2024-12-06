@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Practice/Databases/логическая репликация для postgresql.md",
+                "file": "Practice/docker commands/Enter to docker for check.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "логическая репликация для postgresql"
+              "title": "Enter to docker for check"
             }
           }
         ]
@@ -176,11 +176,13 @@
   "active": "8566caa390f5806c",
   "lastOpenFiles": [
     "Practice/Databases/Postrgresql.md",
+    "Practice/docker commands/Enter to docker for check.md",
+    "Practice/docker commands",
     "Practice/Databases/логическая репликация для postgresql.md",
-    "README.md",
-    "git/git commands.md",
-    "Practice/broker/Kafka with kraft + kafka-ui.md",
     "Practice/cassa/six cassa.md",
+    "git/git commands.md",
+    "README.md",
+    "Practice/broker/Kafka with kraft + kafka-ui.md",
     "Practice/Elasticsearch.md",
     "Practice/Filebeat config.md",
     "Practice/Kafka broker authentication.md",
