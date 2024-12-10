@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Practice/docker commands/Enter to docker for check.md",
+                "file": "Practice/Databases/логическая репликация для postgresql.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Enter to docker for check"
+              "title": "логическая репликация для postgresql"
             }
           }
         ]
@@ -176,21 +176,21 @@
   "active": "8566caa390f5806c",
   "lastOpenFiles": [
     "Practice/Databases/Postrgresql.md",
-    "Practice/docker commands/Enter to docker for check.md",
-    "Practice/docker commands",
-    "Practice/Databases/логическая репликация для postgresql.md",
-    "Practice/cassa/six cassa.md",
-    "git/git commands.md",
-    "README.md",
     "Practice/broker/Kafka with kraft + kafka-ui.md",
-    "Practice/Elasticsearch.md",
+    "Practice/cassa/six cassa.md",
+    "Practice/Databases/логическая репликация для postgresql.md",
+    "Practice/docker commands/Enter to docker for check.md",
     "Practice/Filebeat config.md",
     "Practice/Kafka broker authentication.md",
     "Practice/Kubespray + balancer.md",
+    "Practice/настроить проксирование для test kibana.md",
+    "Practice/docker commands",
+    "git/git commands.md",
+    "README.md",
+    "Practice/Elasticsearch.md",
     "Practice/microk8s.md",
     "Practice/nginx+keepalived.md",
     "Practice/No machine installing.md",
-    "Practice/настроить проксирование для test kibana.md",
     "Pasted image 20241128085410.png",
     "Production/Kafka via Ansible playbook.md",
     "Practice/Vagrant CentOS.md",

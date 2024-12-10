@@ -1,9 +1,9 @@
 # На кассе
 CREATE PUBLICATION sales_data FOR TABLE kassa.audit, kassa.balance_operations, kassa.cashier_report, kassa.cashier_shift, kassa.z_report WITH (publish = 'insert');
 
-CREATE SUBSCRIPTION <хостнейм_кассы>
-    CONNECTION 'host=<ip_стп> port=5432 dbname=stp user=stp_user password=123qweQWE'
-    PUBLICATION master_data;
+		CREATE SUBSCRIPTION <хостнейм_кассы>
+		    CONNECTION 'host=<ip_стп> port=5432 dbname=stp user=stp_user password=123qweQWE'
+		    PUBLICATION master_data;
 
 # На стп
 CREATE SUBSCRIPTION <хостнейм_кассы>
@@ -64,5 +64,18 @@ select * from kassa.g_user;
 select * from pg_catalog.pg_publication;
 select * from pg_catalog.pg_subscription;
 select * from pg_stat_replication;
+SELECT * FROM pg_replication_slots WHERE slot_name = 'kassa_5';
+
 
 sudo tail -100 /var/log/postgresql/postgresql-15-main.log | grep -i error
+
+
+
+You must DISABLE your SUBSCRIPTION by name first. Удаление подписки
+
+```sql
+postgres=#\d reportcenter;
+reportcenter=# ALTER SUBSCRIPTION mysub DISABLE;
+reportcenter=# ALTER SUBSCRIPTION mysub SET (slot_name=NONE);
+reportcenter=# DROP SUBSCRIPTION mysub;
+```
