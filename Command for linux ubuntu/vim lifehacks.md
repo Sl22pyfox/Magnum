@@ -1,0 +1,1 @@
+sudo vim -d zabbix_agent2.conf zabbix_agentd.conf   - для сравнения файлов 
